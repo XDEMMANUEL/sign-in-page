@@ -5,48 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section>
-      <div id="background">
-        <div id="div1">
-          <div>
-            <div id="div2">
-              <img src="Auto Cars.png" alt="" />
-              <div id="div3">
-                <p>User Name:</p>
-                <input id="input" type="text" />
-              </div>
-             
-              <div>
-                <p>E-mail:</p>
-                <input id="input" type="text" />
-              </div>
-              <div>
-                <p>Password:</p>
-                <input id="input" type="text" />
-              </div>
-              <div>
-               
-            </div>
+    <div class="wrapper">
+      <form action="">
+        <h1>login</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Password" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
 
-            
-          </div>
-          
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Remember me</label>
+          <a href="#">Forgot Password?</a>
         </div>
-        <img id="car" src="car.png" alt="" />
-      </div>
-      <div id="div4">
-        <div id="div5">
-          <a href=""><button id="sign">Sign In</button></a>
-        <button id="cancel">Cancel</button>
-        <button id="google"><div id="div6">Continue with Google <img id="googles" src="pngwing.com (10).png" alt=""></div></button>
-        <button id="e-mail"><div id="div6">Continue with G-mail <img id="e-mails" src="pngwing.com (11).png" alt=""></div></button>
+
+        <button type="submit" class="btn">
+          <a href=" https://charles4122.github.io/taxi-place/">Login</a>
+        </button>
+
+        <div class="register-link">
+          <p>Don't have any account? <a href="#">Register</a></p>
         </div>
-        
-      </div>
-    </section>
-   
-    <script src="script.js"></script>
+      </form>
+    </div>
   </body>
 </html>
